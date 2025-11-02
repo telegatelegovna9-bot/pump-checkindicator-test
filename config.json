@@ -1,0 +1,28 @@
+{
+    "telegram_token": "8152424663:AAFsw3ShsMWfC_xuOQ96CcZmJVIsNC3TYbw",
+    "chat_id": "-5066455438",
+    "timeframe": "5m",
+    "volume_filter": 1000000.0,
+    "price_change_threshold": 0.5,
+    "bot_status": true,
+    "indicators_enabled": {
+        "price_change": true,
+        "rsi": true,
+        "macd": true,
+        "volume_surge": true,
+        "bollinger": true,
+        "adx": true,
+        "rsi_macd_divergence": true,
+        "candle_patterns": false,
+        "volume_pre_surge": false,
+        "ema_crossover": false,
+        "obv": false
+    },
+    "min_indicators": 4,
+    "required_indicators": [
+        "rsi"
+    ],
+    "cache_tickers": true,
+    "cache_duration": 300,
+    "log_level": "INFO"
+}
