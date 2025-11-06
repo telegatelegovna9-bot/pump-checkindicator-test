@@ -25,7 +25,7 @@ for handler in logger.handlers:
 scheduler = AsyncIOScheduler(timezone=pytz.UTC)
 semaphore = asyncio.Semaphore(25)
 
-EXCLUDED_KEYWORDS = ["ALPHA", "WEB3", "AI", "BOT"]
+EXCLUDED_KEYWORDS = ["ALPHA", "WEB3"]
 
 previous_signals = {}  # {symbol: {'count': count_triggered, 'time': time.time()}}
 
